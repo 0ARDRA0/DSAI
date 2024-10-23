@@ -1,0 +1,560 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Biabot","I'm Biabot","I'm Biabot your virtual assistant"]
+  },
+  {"tag": "number",
+  "patterns": ["contact number","phone number","mobile"],
+  "responses": [
+  "You can reach us at +91 96190 00123.",
+  "Our contact number is +91 96190 00123.",
+  "For support, please call +91 96190 00123.",
+  "You can contact us at +91 96190 00123."]
+  },{
+    "tag": "contact",
+    "patterns": ["what is your contact number", "contact number", "phone number", "how to reach you","support team"],
+    "responses": [
+      "You can reach us at +91 96190 00123.",
+      "Our contact number is +91 96190 00123.",
+      "For support, please call +91 96190 00123.",
+      "You can contact us at +91 96190 00123."
+    ]
+  },
+  {
+    "tag":"Who teaches the course",
+    "patterns":["Who teaches the course"],
+    "responses":[
+      "The course is taught by top industry professionals working in MNCs with teaching experience."
+    ]
+  },
+  {
+    "tag":"The course is taught by",
+    "patterns":["The course is taught by"],
+    "responses":[
+      "The course is taught by top industry professionals working in MNCs with teaching experience."
+    ]
+  },
+  {
+    "tag":"EMI for the course",
+    "patterns":["EMI for the course"],
+    "responses":[
+      "EMI is available for the course as no cost emi with duration upto 18 months, emi provided through finance companies such as varthana, jodo, eduvanz, and propelld finance."
+    ]
+  },
+  
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses","courses"],
+  "responses": ["we offer masters diploma in data science and artificial intelligence,diploma in data science and artificial intelligence,certification in data science and artificial intelligence,masters diploma in Cloud computing and DevOps,diploma in Cloud computing and DevOps,certification in Cloud computing and DevOps,masters diploma in full stack and web development,diploma in full stack and web development,certification in full stack and web development,masters diploma in business management and analytics,diploma in business management and analytics,certification in business management and analytics,masters diploma in cyber security and ethical hacking,diploma in cyber security and ethical hacking,certification in cyber security and ethical hacking"]
+  },
+  {"tag": "course",
+  "patterns": ["what courses are available", "how many courses","course"],
+  "responses": ["we offer masters diploma in data science and artificial intelligence,diploma in data science and artificial intelligence,certification in data science and artificial intelligence,masters diploma in Cloud computing and DevOps,diploma in Cloud computing and DevOps,certification in Cloud computing and DevOps,masters diploma in full stack and web development,diploma in full stack and web development,certification in full stack and web development,masters diploma in business management and analytics,diploma in business management and analytics,certification in business management and analytics,masters diploma in cyber security and ethical hacking,diploma in cyber security and ethical hacking,certification in cyber security and ethical hacking"]
+  },
+  {
+    "tag":"master_diploma_ in data science fees",
+    "patterns":["masters diploma in data science and artificial intelligence","masters diploma in data science and ai","masters diploma fees"],
+    "responses":[
+      "Master diploma in Data science & ai fees Rs. 1,55,000/-",
+      "Diploma in data science & ai fees Rs. 1,12,000/-"
+    ]
+},
+{
+  "tag":"Fees for masters diploma in data science is",
+  "patterns":["Fees for masters diploma in data science is"],
+  "responses":[
+    "It will cost Rs. 1,55,000/- for a masters diploma in data science or any other course."
+  ]
+},
+{
+  "tag":"course fees",
+  "patterns":["course fees"],
+  "responses":[
+    "It will cost Rs. 1,55,000/- for a masters diploma in data science or any other course."
+  ]
+},
+
+{
+  "tag":"EMI",
+  "patterns":["EMI for the course","Finance"],
+  "responses":[
+    "EMI is available for the course as no cost emi with duration upto 18 months, emi provided through finance companies such as varthana, jodo, eduvanz, and propelld finance."
+  ]
+},
+{
+  "tag":"finance",
+  "patterns":["EMI for the course","Finance"],
+  "responses":[
+    "EMI is available for the course as no cost emi with duration upto 18 months, emi provided through finance companies such as varthana, jodo, eduvanz, and propelld finance."
+  ]
+},
+{
+  "tag":"Fees for masters diploma",
+  "patterns":["Fees for masters diploma"],
+  "responses":[
+    "It will cost Rs. 1,55,000/- for a masters diploma in data science or any other course."
+  ]
+},
+{
+  "tag":"diploma_ in data science fees",
+  "patterns":["diploma in data science and artificial intelligence","diploma in data science and ai","diploma fees"],
+  "responses":[
+    "Rs. 1,12,000/-"
+  ]
+},
+{
+  "tag":"placements",
+  "patterns":["After studying here the students get placed at","what about placement"],
+  "responses":[
+    "The students are placed at Bank of America, Citibank, Flipkart, IBM, L&T infotech, NeoSoft technologies, Microsoft, QBE, Tata consultancy services, tech Mahindra, deloitte, KPMG, cognizant, Capgemini, Book my show, Amazon, ICICI Bank, cipla, maersk line, paytm, HCL, infosys, p&g, Unilever, HDFC Bank, haptik, CRISIL, UBS, wework, Grace Kennedy financial group, assurant, HP, Myntra, Oracle, and many more.."
+  ]
+},{
+  "tag": "placements",
+  "patterns": [
+    "What companies do students get placed in?",
+    "Can you tell me about the placement opportunities?",
+    "Which companies visit for campus placements?",
+    "Where do students get placed after completing their courses?",
+    "Tell me about the companies offering placements here",
+    "What are the top companies that recruit from this institute?",
+    "Who recruits students from this institute?",
+    "Can you provide details on placement companies?",
+    "Where do graduates usually get jobs?",
+    "Do you have any placement statistics?",
+    "What are the placement prospects?",
+    "Where have students been placed after studying here?"
+  ],
+  "responses": [
+    "Our students have been successfully placed in top companies such as Bank of America, Citibank, Flipkart, IBM, L&T Infotech, NeoSoft Technologies, Microsoft, QBE, Tata Consultancy Services, Tech Mahindra, Deloitte, KPMG, Cognizant, Capgemini, BookMyShow, Amazon, ICICI Bank, Cipla, Maersk Line, Paytm, HCL, Infosys, P&G, Unilever, HDFC Bank, Haptik, CRISIL, UBS, WeWork, GraceKennedy Financial Group, Assurant, HP, Myntra, Oracle, and many more."
+  ]
+},{
+  "tag": "placements",
+  "patterns": [
+    "What are the job prospects after completing a course here?",
+    "Which industries hire from your institute?",
+    "Can you list some companies where alumni are working?",
+    "What kind of companies hire graduates from this institute?",
+    "Who are the major recruiters?",
+    "Which firms have hired from your recent batches?",
+    "Are there placement opportunities after finishing the course?",
+    "Can you provide information on the companies that hire your students?",
+    "What companies do your students typically join?",
+    "Which organizations offer placement opportunities to students here?",
+    "What companies offer jobs to your graduates?",
+    "Can you tell me which companies your students have joined after graduating?"
+  ],
+  "responses": [
+    "Graduates from our institute have been placed in prestigious companies including Bank of America, Citibank, Flipkart, IBM, L&T Infotech, NeoSoft Technologies, Microsoft, QBE, Tata Consultancy Services, Tech Mahindra, Deloitte, KPMG, Cognizant, Capgemini, BookMyShow, Amazon, ICICI Bank, Cipla, Maersk Line, Paytm, HCL, Infosys, P&G, Unilever, HDFC Bank, Haptik, CRISIL, UBS, WeWork, GraceKennedy Financial Group, Assurant, HP, Myntra, Oracle, and many others."
+  ]
+},
+  {
+    "tag": "faqs",
+    "patterns": ["what are the fees for the courses", "fee structure", "cost of courses"],
+    "responses": [
+      "The fee structure varies depending on the course. For detailed information, please visit our website or contact our admission office."
+    ]
+  },
+  {
+    "tag": "cloud_computing_and_devops",
+    "patterns": ["demand for cloud computing and DevOps specialists", "job opportunities in cloud computing", "cloud computing sectors"],
+    "responses": [
+      "The demand for Cloud Computing and DevOps Course specialists spans across diverse sectors, including Technology, Finance, Banking, Healthcare, E-commerce, Retail, Telecom, Aerospace, Marketing, Entertainment, Education, Energy, Sports and more, reflecting the broad applicability and impact of these technologies. Job opportunities include roles such as Cloud Architect, DevOps Engineer, Cloud Solutions Architect, Site Reliability Engineer (SRE), Cloud Security Engineer, Cloud Consultant, DevOps Consultant, Cloud Administrator, DevOps Manager, Cloud Engineer, Cloud Systems Administrator, DevOps Analyst, Cloud Operations Engineer, Cloud Integration Specialist, Cloud Automation Engineer, DevOps Specialist, Cloud Infrastructure Engineer, Cloud Platform Engineer, CI/CD Engineer, Cloud Support Engineer, and Infrastructure as Code (IAC) Engineer."
+    ]
+  },
+  {
+    "tag": "full_stack_web_development",
+    "patterns": ["demand for full stack web developers", "job opportunities in full stack web development", "full stack web development sectors"],
+    "responses": [
+      "Sectors actively seeking Full Stack Web Developers include Finance, Healthcare, Technology, Government, E-commerce, Telecommunications, Energy, Consulting, Automotive, Education, Transportation, Sports, and Media. Job opportunities include roles such as Full Stack Developer, Front-end Developer, Back-end Developer, Web Application Developer, React Developer, Node.js Developer, and Database Developer."
+    ]
+  },
+  {
+    "tag": "placements",
+    "patterns": ["tell me about placements", "placement details", "job opportunities after course"],
+    "responses": [
+      "Bank of America, Citibank, Flipkart, IBM, L&T infotech, NeoSoft technologies, Microsoft, QBE, Tata consultancy services, tech Mahindra, deloitte, KPMG, cognizant, Capgemini, Book my show, Amazon, ICICI Bank, cipla, maersk line, paytm, HCL, infosys, p&g, Unilever, HDFC Bank, haptik, CRISIL, UBS, wework, Grace Kennedy financial group, assurant, HP, Myntra, Oracle, and many more."
+    ]
+  },
+  {
+    "tag": "Masters Diploma in Data Science and Artificial Intelligence",
+    "patterns": [
+      "What is the duration of Masters Diploma in Data Science and Artificial Intelligence?",
+      "What are the topics covered in Masters Diploma in Data Science and Artificial Intelligence?",
+      "How much is the fee for Masters Diploma in Data Science and Artificial Intelligence?",
+      "Tell me about Masters Diploma in Data Science and Artificial Intelligence."
+    ],
+    "responses": [
+      "The duration of Masters Diploma in Data Science and Artificial Intelligence is 10 months.The syllabus for Masters Diploma in Data Science and Artificial Intelligence includes Data Analysis, Excel, Python.The fee for Masters Diploma in Data Science and Artificial Intelligence is 1,55,000/-.",
+      "The Masters Diploma in Data Science and Artificial Intelligence is a 10-month course. The syllabus includes Data Analysis, Excel, Python, and the program fee is 1,55,000/-."
+    ]
+  },
+  {
+    "tag": "Diploma in Data Science and Artificial Intelligence",
+    "patterns": [
+      "What is the duration of Diploma in Data Science and Artificial Intelligence?",
+      "What are the topics covered in Diploma in Data Science and Artificial Intelligence?",
+      "How much is the fee for Diploma in Data Science and Artificial Intelligence?",
+      "Tell me about Diploma in Data Science and Artificial Intelligence."
+    ],
+    "responses": [
+      "The duration of Diploma in Data Science and Artificial Intelligence is 6 months.",
+      "The syllabus for Diploma in Data Science and Artificial Intelligence includes Data Analysis, Excel, Python.",
+      "The fee for Diploma in Data Science and Artificial Intelligence is 1,12,000/-.",
+      "The Diploma in Data Science and Artificial Intelligence is a 6-month course. The syllabus includes Data Analysis, Excel, Python, and the program fee is 1,12,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Data Science and Artificial Intelligence",
+    "patterns": [
+      "What is the duration of Certification in Data Science and Artificial Intelligence?",
+      "What are the topics covered in Certification in Data Science and Artificial Intelligence?",
+      "How much is the fee for Certification in Data Science and Artificial Intelligence?",
+      "Tell me about Certification in Data Science and Artificial Intelligence."
+    ],
+    "responses": [
+      "The duration of Certification in Data Science and Artificial Intelligence is 4 months.",
+      "The syllabus for Certification in Data Science and Artificial Intelligence includes Data Analysis, Excel, Python.",
+      "The fee for Certification in Data Science and Artificial Intelligence is 75,000/-.",
+      "The Certification in Data Science and Artificial Intelligence is a 4-month course. The syllabus includes Data Analysis, Excel, Python, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "Masters Diploma in Cloud Computing and DevOps",
+    "patterns": [
+      "What is the duration of Masters Diploma in Cloud Computing and DevOps?",
+      "What are the topics covered in Masters Diploma in Cloud Computing and DevOps?",
+      "How much is the fee for Masters Diploma in Cloud Computing and DevOps?",
+      "Tell me about Masters Diploma in Cloud Computing and DevOps."
+    ],
+    "responses": [
+      "The duration of Masters Diploma in Cloud Computing and DevOps is 10 months.",
+      "The syllabus for Masters Diploma in Cloud Computing and DevOps includes AWS Services, Amazon Web Services.",
+      "The fee for Masters Diploma in Cloud Computing and DevOps is 1,55,000/-.",
+      "The Masters Diploma in Cloud Computing and DevOps is a 10-month course. The syllabus includes AWS Services, Amazon Web Services, and the program fee is 1,55,000/-."
+    ]
+  },
+  {
+    "tag": "Diploma in Cloud Computing and DevOps",
+    "patterns": [
+      "What is the duration of Diploma in Cloud Computing and DevOps?",
+      "What are the topics covered in Diploma in Cloud Computing and DevOps?",
+      "How much is the fee for Diploma in Cloud Computing and DevOps?",
+      "Tell me about Diploma in Cloud Computing and DevOps."
+    ],
+    "responses": [
+      "The duration of Diploma in Cloud Computing and DevOps is 6 months.",
+      "The syllabus for Diploma in Cloud Computing and DevOps includes AWS Services, Amazon Web Services.",
+      "The fee for Diploma in Cloud Computing and DevOps is 1,12,000/-.",
+      "The Diploma in Cloud Computing and DevOps is a 6-month course. The syllabus includes AWS Services, Amazon Web Services, and the program fee is 1,12,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Cloud Computing and DevOps",
+    "patterns": [
+      "What is the duration of Certification in Cloud Computing and DevOps?",
+      "What are the topics covered in Certification in Cloud Computing and DevOps?",
+      "How much is the fee for Certification in Cloud Computing and DevOps?",
+      "Tell me about Certification in Cloud Computing and DevOps."
+    ],
+    "responses": [
+      "The duration of Certification in Cloud Computing and DevOps is 4 months.",
+      "The syllabus for Certification in Cloud Computing and DevOps includes AWS Services, Amazon Web Services.",
+      "The fee for Certification in Cloud Computing and DevOps is 75,000/-.",
+      "The Certification in Cloud Computing and DevOps is a 4-month course. The syllabus includes AWS Services, Amazon Web Services, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "Masters Diploma in Full Stack and Web Development",
+    "patterns": [
+      "What is the duration of Masters Diploma in Full Stack and Web Development?",
+      "What are the topics covered in Masters Diploma in Full Stack and Web Development?",
+      "How much is the fee for Masters Diploma in Full Stack and Web Development?",
+      "Tell me about Masters Diploma in Full Stack and Web Development."
+    ],
+    "responses": [
+      "The duration of Masters Diploma in Full Stack and Web Development is 10 months.",
+      "The syllabus for Masters Diploma in Full Stack and Web Development includes HTML & CSS, Docker, Express.js.",
+      "The fee for Masters Diploma in Full Stack and Web Development is 1,55,000/-.",
+      "The Masters Diploma in Full Stack and Web Development is a 10-month course. The syllabus includes HTML & CSS, Docker, Express.js, and the program fee is 1,55,000/-."
+    ]
+  },
+  {
+    "tag": "Diploma in Full Stack and Web Development",
+    "patterns": [
+      "What is the duration of Diploma in Full Stack and Web Development?",
+      "What are the topics covered in Diploma in Full Stack and Web Development?",
+      "How much is the fee for Diploma in Full Stack and Web Development?",
+      "Tell me about Diploma in Full Stack and Web Development."
+    ],
+    "responses": [
+      "The duration of Diploma in Full Stack and Web Development is 6 months.",
+      "The syllabus for Diploma in Full Stack and Web Development includes HTML & CSS, Docker, Express.js.",
+      "The fee for Diploma in Full Stack and Web Development is 1,12,000/-.",
+      "The Diploma in Full Stack and Web Development is a 6-month course. The syllabus includes HTML & CSS, Docker, Express.js, and the program fee is 1,12,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Full Stack and Web Development",
+    "patterns": [
+      "What is the duration of Certification in Full Stack and Web Development?",
+      "What are the topics covered in Certification in Full Stack and Web Development?",
+      "How much is the fee for Certification in Full Stack and Web Development?",
+      "Tell me about Certification in Full Stack and Web Development."
+    ],
+    "responses": [
+      "The duration of Certification in Full Stack and Web Development is 4 months.",
+      "The syllabus for Certification in Full Stack and Web Development includes HTML & CSS, Docker, Express.js.",
+      "The fee for Certification in Full Stack and Web Development is 75,000/-.",
+      "The Certification in Full Stack and Web Development is a 4-month course. The syllabus includes HTML & CSS, Docker, Express.js, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "Masters Diploma in Business Management and Analytics",
+    "patterns": [
+      "What is the duration of Masters Diploma in Business Management and Analytics?",
+      "What are the topics covered in Masters Diploma in Business Management and Analytics?",
+      "How much is the fee for Masters Diploma in Business Management and Analytics?",
+      "Tell me about Masters Diploma in Business Management and Analytics."
+    ],
+    "responses": [
+      "The duration of Masters Diploma in Business Management and Analytics is 10 months.",
+      "The syllabus for Masters Diploma in Business Management and Analytics includes Core Business, Excel, Python.",
+      "The fee for Masters Diploma in Business Management and Analytics is 1,55,000/-.",
+      "The Masters Diploma in Business Management and Analytics is a 10-month course. The syllabus includes Core Business, Excel, Python, and the program fee is 1,55,000/-."
+    ]
+  },
+  {
+    "tag": "Diploma in Business Management and Analytics",
+    "patterns": [
+      "What is the duration of Diploma in Business Management and Analytics?",
+      "What are the topics covered in Diploma in Business Management and Analytics?",
+      "How much is the fee for Diploma in Business Management and Analytics?",
+      "Tell me about Diploma in Business Management and Analytics."
+    ],
+    "responses": [
+      "The duration of Diploma in Business Management and Analytics is 6 months.",
+      "The syllabus for Diploma in Business Management and Analytics includes Core Business, Excel, Python.",
+      "The fee for Diploma in Business Management and Analytics is 1,12,000/-.",
+      "The Diploma in Business Management and Analytics is a 6-month course. The syllabus includes Core Business, Excel, Python, and the program fee is 1,12,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Business Management and Analytics",
+    "patterns": [
+      "What is the duration of Certification in Business Management and Analytics?",
+      "What are the topics covered in Certification in Business Management and Analytics?",
+      "How much is the fee for Certification in Business Management and Analytics?",
+      "Tell me about Certification in Business Management and Analytics."
+    ],
+    "responses": [
+      "The duration of Certification in Business Management and Analytics is 4 months.",
+      "The syllabus for Certification in Business Management and Analytics includes Core Business, Excel, Python.",
+      "The fee for Certification in Business Management and Analytics is 75,000/-.",
+      "The Certification in Business Management and Analytics is a 4-month course. The syllabus includes Core Business, Excel, Python, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "Masters Diploma in Cyber Security and Ethical Hacking",
+    "patterns": [
+      "What is the duration of Masters Diploma in Cyber Security and Ethical Hacking?",
+      "What are the topics covered in Masters Diploma in Cyber Security and Ethical Hacking?",
+      "How much is the fee for Masters Diploma in Cyber Security and Ethical Hacking?",
+      "Tell me about Masters Diploma in Cyber Security and Ethical Hacking."
+    ],
+    "responses": [
+      "The duration of Masters Diploma in Cyber Security and Ethical Hacking is 10 months.",
+      "The syllabus for Masters Diploma in Cyber Security and Ethical Hacking includes Explore, NMAP, Kali Linux.",
+      "The fee for Masters Diploma in Cyber Security and Ethical Hacking is 1,55,000/-.",
+      "The Masters Diploma in Cyber Security and Ethical Hacking is a 10-month course. The syllabus includes Explore, NMAP, Kali Linux, and the program fee is 1,55,000/-."
+    ]
+  },
+  {
+    "tag": "Diploma in Cyber Security and Ethical Hacking",
+    "patterns": [
+      "What is the duration of Diploma in Cyber Security and Ethical Hacking?",
+      "What are the topics covered in Diploma in Cyber Security and Ethical Hacking?",
+      "How much is the fee for Diploma in Cyber Security and Ethical Hacking?",
+      "Tell me about Diploma in Cyber Security and Ethical Hacking."
+    ],
+    "responses": [
+      "The duration of Diploma in Cyber Security and Ethical Hacking is 6 months.",
+      "The syllabus for Diploma in Cyber Security and Ethical Hacking includes Explore, NMAP, Kali Linux.",
+      "The fee for Diploma in Cyber Security and Ethical Hacking is 1,12,000/-.",
+      "The Diploma in Cyber Security and Ethical Hacking is a 6-month course. The syllabus includes Explore, NMAP, Kali Linux, and the program fee is 1,12,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Cyber Security and Ethical Hacking",
+    "patterns": [
+      "What is the duration of Certification in Cyber Security and Ethical Hacking?",
+      "What are the topics covered in Certification in Cyber Security and Ethical Hacking?",
+      "How much is the fee for Certification in Cyber Security and Ethical Hacking?",
+      "Tell me about Certification in Cyber Security and Ethical Hacking."
+    ],
+    "responses": [
+      "The duration of Certification in Cyber Security and Ethical Hacking is 4 months.",
+      "The syllabus for Certification in Cyber Security and Ethical Hacking includes Explore, NMAP, Kali Linux.",
+      "The fee for Certification in Cyber Security and Ethical Hacking is 75,000/-.",
+      "The Certification in Cyber Security and Ethical Hacking is a 4-month course. The syllabus includes Explore, NMAP, Kali Linux, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "Certification in Cyber Security and Ethical Hacking fee",
+    "patterns": [
+      "fees for Cyber Security and Ethical Hacking",
+      "How much is the fee for Certification in Cyber Security and Ethical Hacking?",
+      "Tell me about Certification in Cyber Security and Ethical Hacking."
+    ],
+    "responses": [
+      "The fee for Certification in Cyber Security and Ethical Hacking is 75,000/-.",
+      "The Certification in Cyber Security and Ethical Hacking is a 4-month course. The syllabus includes Explore, NMAP, Kali Linux, and the program fee is 75,000/-."
+    ]
+  },
+  {
+    "tag": "teach",
+    "patterns": [
+      "What is the professional background of the course teachers?",
+      "How experienced are the course instructors?",
+      "What makes the course instructors qualified?",
+      "Who will be teaching the course?",
+      "What kind of experience do the instructors have?",
+      "Can you tell me about the background of the course teachers?",
+      "What qualifications do the course instructors have?",
+      "Who are the instructors for the course"
+    ],
+    "responses": [
+      "The course is taught by top industry professionals working in MNCs with teaching experience"
+    ]
+  },
+  {
+    "tag": "teaching",
+    "patterns": [
+      "What is the professional background of the course teachers?",
+      "How experienced are the course instructors?",
+      "What makes the course instructors qualified?",
+      "Who will be teaching the course?",
+      "What kind of experience do the instructors have?",
+      "Can you tell me about the background of the course teachers?",
+      "What qualifications do the course instructors have?",
+      "Who are the instructors for the course"
+    ],
+    "responses": [
+      "The course is taught by top industry professionals working in MNCs with teaching experience"
+    ]
+  },
+  {
+    "tag": "mentor",
+    "patterns": [
+      "What is the professional background of the course teachers?",
+      "How experienced are the course instructors?",
+      "What makes the course instructors qualified?",
+      "Who will be teaching the course?",
+      "What kind of experience do the instructors have?",
+      "Can you tell me about the background of the course teachers?",
+      "What qualifications do the course instructors have?",
+      "Who are the instructors for the course"
+    ],
+    "responses": [
+      "The course is taught by top industry professionals working in MNCs with teaching experience"
+    ]
+  },
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "fallback",
+  "patterns": [
+    "What happens if the chatbot doesn't understand?",
+    "If you don't know the answer, what will you say?",
+    "Can you answer any question?",
+    "What if the chatbot can't answer my question?"
+  ],
+  "responses": [
+    "I'm sorry, I don't have the information you're looking for at the moment. Could you please rephrase your question or ask something else?",
+    "I apologize, but I couldn't find an answer to that. You can try asking differently or reach out to our support team for more help.",
+    "I'm not sure I have the right answer to that question. Please try asking in a different way, or contact our support for further assistance.",
+    "I'm sorry, I'm unable to answer that question right now. You might want to check our FAQs or contact our support team for more details."
+  ]
+  },
+  
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {
+    "tag": "eligibility",
+    "patterns": [
+      "The eligibility to study the course is",
+      "What is the eligibility to study the course?",
+      "Who is eligible to enroll in this course?",
+      "Can I apply for this course?",
+      "What are the prerequisites for this course?",
+      "What qualifications do I need to enroll in this course?",
+      "Is there any eligibility criteria for the course?",
+      "What are the entry requirements for this course?",
+      "Who can apply for this course?",
+      "What do I need to qualify for this course?",
+      "What are the eligibility conditions for this program?",
+      "Am I eligible to take this course?",
+      "What are the requirements to join this course?"
+    ],
+    "responses": [
+      "This beginner friendly course, in the era of cutting-edge tools and AI, this course is open to everyone, regardless of your background."
+    ]
+  },
+  
+  {
+    "tag": "qualification",
+    "patterns": [
+      "The qualification to study the course is",
+      "What is the qualification to study the course?",
+      "Who is eligible to enroll in this course?",
+      "Can I apply for this course?",
+      "What are the prerequisites for this course?",
+      "What qualifications do I need to enroll in this course?",
+      "Is there any qualification criteria for the course?",
+      "What are the entry requirements for this course?",
+      "Who can apply for this course?",
+      "What do I need to qualify for this course?",
+      "What are the qualification conditions for this program?",
+      "Am I eligible to take this course?",
+      "What are the requirements to join this course?"
+    ],
+    "responses": [
+      "This beginner friendly course, in the era of cutting-edge tools and AI, this course is open to everyone, regardless of your background."
+    ]
+  },
+  {
+    "tag": "salary",
+    "patterns": [
+      "After studying cloud computing, you will get a salary of",
+      "What salary can I expect after studying cloud computing?",
+      "How much will I earn after completing a cloud computing course?",
+      "What is the average salary for cloud computing graduates?",
+      "How much do cloud computing professionals get paid?",
+      "What is the expected salary after learning cloud computing?",
+      "What can be my salary after completing a cloud computing program?",
+      "What are the salary prospects after studying cloud computing?",
+      "What kind of salary can I expect with a cloud computing degree?",
+      "How much do cloud computing experts make?",
+      "What is the typical salary after finishing cloud computing?"
+    ],
+    "responses": [
+      " starting salary of 5 to 8 lakhs per annum and an average salary of 15 to 25 lakhs per annum is expected for a job."
+    ]
+  }
+]}

@@ -1,0 +1,16 @@
+numpy
+nltk
+tensorflow
+flask
+flask-cors
+flask-session
+pymongo
+nltk
+tensorflow
+werkzeug
+pyjwt
+python-dotenv
+torch
+transformers
+scikit-learn
+sentencepiece

@@ -1,0 +1,4 @@
+SECRET_KEY=your_secret_key
+MONGODB_URI=mongodb://localhost:27017/
+OPENAI_API_KEY=sk-e48ulvbVET5UzTZ97iPaqFnmay6wf6Tco02srGwCF8T3BlbkFJEq0qPKpB4NcD6TtnfQ4u71ZfVwNlmfANKLcUo0aLEA
+OLLAMA_API_KEY=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
